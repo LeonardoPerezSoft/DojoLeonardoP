@@ -1,0 +1,28 @@
+@startuml
+class com.example.demo.Player {
++ int id
++ String name
++ int age
++ String icon
++ String national
++ int winners
++ int games
++ String club
++ int getId()
++ void setId(int)
++ String getName()
++ void setName(String)
++ int getAge()
++ void setAge(int)
++ String getIcon()
++ void setIcon(String)
++ String getNational()
++ void setNational(String)
++ int getWinners()
++ void setWinners(int)
++ int getGames()
++ void setGames(int)
++ String getClub()
++ void setClub(String)
+}
+@enduml
